@@ -20,18 +20,18 @@ This is a collection of all the scripts for repetitive task in my day2day projec
 >$ curl -O https://github.com/damunza/Fun-scripts/blob/master/<script>
 
 ###### for windows 
--Download curl executable as type of package from [here] (https://curl.haxx.se/)
--Open zip and enter _src_ folder find the **curl executable**
--Paste the _.exe_ to a local folder for running eg 
->if the file is in programs 
+- Download curl executable as type of package from [here](https://curl.haxx.se/)
+- Open zip and enter _src_ folder find the **curl executable**
+- Paste the _.exe_ to a local folder for running eg 
+_if the file is in programs_
 >$ cd programs && curl -O https://github.com/damunza/Fun-scripts/blob/master/<script>
 
--for visual aid [video](https://youtube.com/watch?=4QNWUbrLpCK)
+- for visual aid [video](https://youtube.com/watch?=4QNWUbrLpCK)
 
 ##### for mac 
 - To get curl repo
 >$ ruby -e "$(curl -fsSl https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2 > /dev/null
->enter password if prompted 
+_enter password if prompted_ 
 - To install curl run
 > brew insatll curl
 - to get the script 
@@ -48,8 +48,10 @@ It tests the sha256 value of the local files and compares them to the verificati
 - Append the correct script on the **_curl statement_**
 - Copy and Paste the original sha256 value from _source_
 - Generate the file sha value for the file
->$ shasum -a 256 /path/to/file  -macos
->$ sha256sum /path/to/file -linux
+mac os
+>$ shasum -a 256 /path/to/file
+linux
+>$ sha256sum /path/to/file 
 - Paste value when prompted by the script
 
 
