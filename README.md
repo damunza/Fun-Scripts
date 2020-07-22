@@ -15,7 +15,9 @@ This is a collection of all the scripts for repetitive task in my day2day projec
  
 -  To install curl run if not installed
 >$ sudo apt-get install curl -y
->enter password when prompted
+
+_enter password when prompted_
+
 - cd to desired file destination and download script 
 >$ curl -O https://github.com/damunza/Fun-scripts/blob/master/<script>
 
@@ -23,18 +25,26 @@ This is a collection of all the scripts for repetitive task in my day2day projec
 - Download curl executable as type of package from [here](https://curl.haxx.se/)
 - Open zip and enter _src_ folder find the **curl executable**
 - Paste the _.exe_ to a local folder for running eg 
+
 _if the file is in programs_
+
 >$ cd programs && curl -O https://github.com/damunza/Fun-scripts/blob/master/<script>
 
 - for visual aid [video](https://youtube.com/watch?=4QNWUbrLpCK)
 
 ##### for mac 
 - To get curl repo
+
 >$ ruby -e "$(curl -fsSl https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2 > /dev/null
+
 _enter password if prompted_ 
+
 - To install curl run
+
 > brew insatll curl
+
 - to get the script 
+
 > curl -O https://github.com/damunza/Fun-scripts/blob/master/<script>
 
 ### sha256.sh
@@ -48,10 +58,15 @@ It tests the sha256 value of the local files and compares them to the verificati
 - Append the correct script on the **_curl statement_**
 - Copy and Paste the original sha256 value from _source_
 - Generate the file sha value for the file
+
 mac os
+
 >$ shasum -a 256 /path/to/file
+
 linux
+
 >$ sha256sum /path/to/file 
+
 - Paste value when prompted by the script
 
 
